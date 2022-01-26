@@ -1,0 +1,230 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.border2 {
+  border: 1px solid red;
+}
+
+.border3 {
+  border: 1px solid blue;
+}
+
+.vertical-form {
+  text-align: left;
+}
+.vertical-form label {
+  display: block;
+}
+
+.vertical-form input {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.loading-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -18px;
+  margin-left: -18px;
+}
+
+.form-group-margin .form-group {
+  margin-bottom: 1rem;
+}
+
+.opaque {
+  opacity: 0.5;
+}
+
+.editable-text {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.my-nav {
+  background-color: #800080 !important;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 40px;
+}
+
+.my-nav a {
+  color: rgba(255, 255, 255, 0.55) !important;
+  font-weight: 600;
+}
+.my-nav .active {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 800;
+}
+
+.wrapper {
+  padding-top: 100px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.inherit-height {
+  min-height: inherit !important;
+}
+
+.nav-button {
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+.custom-mb-0 {
+  margin-bottom: 0rem;
+}
+.center-text {
+  text-align: center;
+}
+.error-message {
+  color: #ff0000;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.contents {
+  display: contents;
+}
+
+.custom-btn-primary {
+  background-color: #800080 !important;
+  border-color: #800080 !important;
+}
+.custom-card-header {
+  background-color: #80008080;
+  color: #ffffff;
+}
+
+.custom-form label {
+  text-align: right;
+}
+.grey-text {
+  color: #888888;
+}
+
+.helper {
+  color: #00000091;
+}
+.react-datepicker-wrapper {
+  max-width: 300px !important;
+}
+.scheme-button {
+  height: 60px;
+  width: 60px;
+  border: none;
+  opacity: 0.3;
+}
+
+.scheme-button-selected {
+  opacity: 1 !important;
+}
+
+.scheme-button-purple {
+  background-color: #9c27b0;
+}
+
+.scheme-button-red {
+  background-color: #f44336;
+}
+
+.scheme-button-green {
+  background-color: #4caf50;
+}
+
+.form-check-input:checked {
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+}
+
+btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+}
+
+.btn-primary:hover,
+.btn-primary.hover {
+  color: #fff;
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.control-wrapper label.filter {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333333;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
